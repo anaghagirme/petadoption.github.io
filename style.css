@@ -1,0 +1,36 @@
+.gallery
+{
+    margin: 10px 40px;
+
+}
+.gallery img {
+
+    transition: 2s;
+    padding: 10px;
+    
+}
+
+.gallery img:hover {
+
+    filter:grayscale(100%);
+    transform: scale(1.1);
+}
+
+h1, p, h2, h3 {
+    text-align: center;
+    font: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    -ms-flex-item-align: center;
+    
+}
+
+body{
+    background-color: lightgray;
+}
+
+.caption{
+    display: block;
+}
